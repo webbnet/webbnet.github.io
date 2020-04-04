@@ -1,0 +1,54 @@
+@import "var/color";
+
+.wrapper-404{
+    max-width: 720px;
+    padding: 45px 10px;
+
+    header{
+        color: rgb(55, 67, 82);
+
+        .wn{
+            font-size: 72px;
+        }
+
+        h2{
+            margin-left: 15px;
+            font-size: 36px;
+        }
+    }
+
+    .content-404{
+        text-align: center;
+        padding: 67px 0;
+
+        p{
+            font-size: 22px;
+            color: $dark;
+        }
+
+        .wrapper-recommendation{
+            padding: 70px 0;
+
+            h3{
+                font-size: 18px;
+                color: rgb(100, 100, 100);
+            }
+
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li{
+                    line-height: 45px;
+                    font-size: 16px;
+                    color: rgb(196, 46, 108);
+
+                    a{
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    }
+}

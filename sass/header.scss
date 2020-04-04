@@ -1,0 +1,106 @@
+@import "var/size";
+@import "var/color";
+
+body{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.wrapper-main{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+
+    .header{
+        background-color: $bg;
+        background-image: $bg-gradient;
+        padding: 21px 7px 15px 7px;
+
+        .branding{
+            h1{
+                font-size: 28px;
+                font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+                color: $light;
+                margin-bottom: 0;
+
+                a{
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+            
+            .open-menu{
+                display: none;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                background: transparent;
+                z-index: 999;
+
+                &:focus{
+                    outline: none;
+                }
+
+                .wn{
+                    font-size: 28px;
+                    color: $light;
+                }
+
+                @media screen and (max-width: $small){
+                    display: block;
+                }   
+            }
+        }
+
+        .header-menu{
+            list-style: none;
+            text-align: center;
+            padding: 0;
+
+            @media screen and (max-width: $small){
+                position: fixed;
+                top: 0;
+                left: -$menu;
+                width: 100%;
+                height: 100%;
+                max-width: $menu;
+                padding: 35px 15px;
+                text-align: initial;
+                background: $dark;
+                transition: left 0.3s;
+                z-index: 99;
+
+                li{
+                    display: block !important;
+                    color: $light;
+                    margin: 0 0 35px 0 !important;
+                    font-size: 18px;
+                    
+                    a{
+                        display: inline-block;
+                    }
+                }
+            }
+
+            li{
+                display: inline;
+                margin-right: 15px;
+                color: $light;
+                font-size: 16px;
+
+                a{
+                    color: inherit;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .content{
+        padding: 15px 0 95px 0;
+    }
+}
