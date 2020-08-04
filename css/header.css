@@ -1,0 +1,73 @@
+body {
+  max-width: 1920px;
+  margin: auto; }
+
+.wrapper-main {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto; }
+  .wrapper-main .header {
+    background-color: #d134af;
+    background-image: linear-gradient(to top right, #c954ff, #bb43f2, #ac32e5, #9e22d7, #8f11ca, #8100bd, #790ebb, #711cba, #692ab8, #6138b6, #5946b5, #5154b3);
+    padding: 21px 7px 15px 7px; }
+    .wrapper-main .header .branding h1 {
+      font-size: 28px;
+      font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+      color: #f7f7f7;
+      margin-bottom: 0; }
+      .wrapper-main .header .branding h1 a {
+        color: inherit;
+        text-decoration: none; }
+    .wrapper-main .header .branding .open-menu {
+      display: none;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      z-index: 999; }
+      .wrapper-main .header .branding .open-menu:focus {
+        outline: none; }
+      .wrapper-main .header .branding .open-menu .wn {
+        font-size: 28px;
+        color: #f7f7f7; }
+      @media screen and (max-width: 640px) {
+        .wrapper-main .header .branding .open-menu {
+          display: block; } }
+    .wrapper-main .header .header-menu {
+      list-style: none;
+      text-align: center;
+      padding: 0; }
+      @media screen and (max-width: 640px) {
+        .wrapper-main .header .header-menu {
+          position: fixed;
+          top: 0;
+          left: -320px;
+          width: 100%;
+          height: 100%;
+          max-width: 320px;
+          padding: 35px 15px;
+          text-align: initial;
+          background: #1e1e1e;
+          transition: left 0.3s;
+          z-index: 99; }
+          .wrapper-main .header .header-menu li {
+            display: block !important;
+            color: #f7f7f7;
+            margin: 0 0 35px 0 !important;
+            font-size: 18px; }
+            .wrapper-main .header .header-menu li a {
+              display: inline-block; } }
+      .wrapper-main .header .header-menu li {
+        display: inline;
+        margin-right: 15px;
+        color: #f7f7f7;
+        font-size: 16px; }
+        .wrapper-main .header .header-menu li a {
+          color: inherit;
+          text-decoration: none; }
+          .wrapper-main .header .header-menu li a:hover {
+            color: #ffffff; }
+  .wrapper-main .content {
+    padding: 15px 0 95px 0; }
+
+/*# sourceMappingURL=header.css.map */

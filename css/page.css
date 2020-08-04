@@ -1,0 +1,21 @@
+.wrapper-page {
+  max-width: 850px;
+  padding: 50px 27px; }
+  @media screen and (max-width: 640px) {
+    .wrapper-page {
+      padding: 40px 12px; } }
+  .wrapper-page h1 {
+    font-size: 36px;
+    color: #926282;
+    margin-bottom: 35px; }
+  .wrapper-page h2 {
+    font-size: 24px;
+    color: #754a67;
+    margin-bottom: 25px; }
+  .wrapper-page p {
+    font-size: 18px;
+    color: #1e1e1e;
+    line-height: 35px;
+    margin-bottom: 35px; }
+
+/*# sourceMappingURL=page.css.map */
