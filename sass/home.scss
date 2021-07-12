@@ -1,0 +1,109 @@
+@import "var/color";
+@import "var/size";
+
+@font-face{
+    font-family: 'Indie Flower';
+    src: url('../fonts/IndieFlower-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.wrapper-welcome{
+    background: $light;
+    padding-bottom: 27px;
+    text-align: center;
+    padding: 40px 15px 0 15px;
+
+    @media screen and (max-width: $small){
+        h2{
+            font-size: 34px !important;
+        }
+
+        p{
+            font-size: 18px !important;
+        }
+    }
+
+    h2{
+        font-size: 42px;
+        font-family: 'Indie Flower', monospace;
+        font-weight: bolder;
+        color: rgb(99, 105, 116);
+
+        .wn{
+            font-size: 1.1em;
+        }
+    }
+
+    p{
+        max-width: 750px;
+        margin: 35px auto;
+        font-size: 22px;
+        font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        color: rgb(99, 105, 116);
+        line-height: 30px;
+    }
+
+    .wrapper-buttons{
+        .btn{
+            width: 230px;
+            height: auto;
+            padding: 19px 0;
+            margin: 0 15px 25px 0;
+            border: 0;
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            cursor: pointer;
+
+            
+            @media screen and (max-width: $small){
+                display: block;
+                margin: 0 auto 25px auto;
+            }
+            
+            &:focus{
+                outline: none;
+            }
+            
+            .wn{
+                font-size: 1.3em;
+                vertical-align: middle;
+            }
+        }
+        
+        #download{
+            background: $download;
+
+            &:hover{
+                background: darken($color: $download, $amount: 10%);
+            }
+        }
+
+        #getlink{
+            background: $link;
+
+            &:hover{
+                background: darken($color: $link, $amount: 10%);
+            }
+        }
+    }
+
+    .wrapper-gallery{
+        max-width: 520px;
+        margin-bottom: 65px;
+
+        ._row{
+            margin: 35px 0;
+
+            .wn{
+                font-size: 42px;
+
+                @media screen and (max-width: $small){
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}

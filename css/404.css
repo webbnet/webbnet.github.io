@@ -1,0 +1,33 @@
+.wrapper-404 {
+  max-width: 720px;
+  padding: 45px 10px; }
+  .wrapper-404 header {
+    color: #374352; }
+    .wrapper-404 header .wn {
+      font-size: 72px; }
+    .wrapper-404 header h2 {
+      margin-left: 15px;
+      font-size: 36px; }
+  .wrapper-404 .content-404 {
+    text-align: center;
+    padding: 67px 0; }
+    .wrapper-404 .content-404 p {
+      font-size: 22px;
+      color: #1e1e1e; }
+    .wrapper-404 .content-404 .wrapper-recommendation {
+      padding: 70px 0; }
+      .wrapper-404 .content-404 .wrapper-recommendation h3 {
+        font-size: 18px;
+        color: #646464; }
+      .wrapper-404 .content-404 .wrapper-recommendation ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        .wrapper-404 .content-404 .wrapper-recommendation ul li {
+          line-height: 45px;
+          font-size: 16px;
+          color: #c42e6c; }
+          .wrapper-404 .content-404 .wrapper-recommendation ul li a {
+            color: inherit; }
+
+/*# sourceMappingURL=404.css.map */
