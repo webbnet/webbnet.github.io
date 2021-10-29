@@ -1,0 +1,130 @@
+body {
+  	background-color: #303030 !important;
+}
+
+.wrapper-icons {
+  	position: relative;
+  	text-align: center;
+}
+.wrapper-icon {
+	display: inline-block;
+	width: 75px;
+	height: auto;
+	margin: 15px 9px;
+}
+.content{
+	padding-bottom: 50px;
+}
+.wrapper-icon:hover {
+	cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+	.wrapper-icon {
+		width: 65px;
+	} 
+}
+.wrapper-glyph {
+	width: 100%;
+	height: 75px;
+	border-radius: 7px;
+	text-align: center;
+	line-height: 75px;
+}
+.wrapper-glyph:hover {
+	background: #1e1e1e;
+}
+.wrapper-glyph:hover .icon {
+	color: #50ffe8;
+}
+.wrapper-glyph .icon {
+	font-size: 36px;
+	vertical-align: middle;
+	color: #eeeeee;
+}
+@media screen and (max-width: 850px) {
+	.wrapper-glyph .icon {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.wrapper-glyph {
+		height: 65px;
+		line-height: 65px;
+	}
+}
+.icon-name {
+	width: 100%;
+	color: #eeeeee;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 7px;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+@media screen and (max-width: 850px) {
+	.icon-name {
+		font-size: 12px;
+	}
+}
+
+.wrapper-icons .finder-activator {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	border-radius: 50%;
+	z-index: 10;
+	background: #d134af;
+	color: #f7f7f7;
+	border: 3px solid #df72c8;
+}
+
+.wrapper-icons .download-btn {
+	display: inline-block;
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 0;
+	border-radius: 50%;
+	z-index: 10;
+	background: #3466d1;
+	color: #f7f7f7;
+	border: 1px solid #61faff;
+}
+
+.wrapper-modal .header-modal h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #738a9c;
+}
+.wrapper-modal .header-modal p {
+	font-size: 12px;
+	color: #b32a00;
+}
+.wrapper-modal .content-modal {
+	padding: 25px 0;
+	text-align: center;
+}
+.wrapper-modal .content-modal .icon {
+	font-size: 120px;
+	color: #1e1e1e;
+}
+
+.rotate-90{
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rotate-270{
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
